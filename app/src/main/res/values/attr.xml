@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SettingLayout-->
+    <declare-styleable name="SettingLayout">
+        <attr name="setting_name" format="string"></attr>
+        <attr name="setting_layout" format="string"></attr>
+        <attr name="setting_img" format="reference"></attr>
+        <attr name="setting_next" format="reference"></attr>
+        <attr name="setting_right_name" format="string"></attr>
+    </declare-styleable>
+</resources>

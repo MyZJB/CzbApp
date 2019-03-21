@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity"
+        android:orientation="vertical"
+        android:background="#C61027">
+     <TextView
+             android:id="@+id/tv_login"
+             android:layout_width="match_parent"
+             android:layout_height="80dp"
+             android:text="注册"
+             android:textSize="27sp"
+             android:textStyle="bold"
+             android:textColor="#fff"
+             android:gravity="center"/>
+
+    <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="128dp"
+            android:layout_height="50dp"
+            android:src="@drawable/nav_logo"
+            android:layout_gravity="center"/>
+    
+    <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:hint="请输入手机号码"
+            android:textColorHint="#FFFF"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/image_phone"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"/>
+
+    <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:hint="请输短信验证码"
+            android:textColorHint="#FFFF"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/image_verification_code"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"/>
+
+    <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:hint="请输入姓名"
+            android:textColorHint="#FFFF"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/image_name"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"/>
+
+    <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:hint="请输入密码"
+            android:textColorHint="#FFFF"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/image_passwords"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"/>
+
+    <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:hint="请再次输入密码"
+            android:textColorHint="#FFFF"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/image_passwords"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"/>
+
+    <EditText
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="48dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            android:hint="请输入邮箱"
+            android:textColorHint="#FFFF"
+            android:background="@drawable/rounded_edittext"
+            android:drawableLeft="@drawable/image_email"
+            android:drawablePadding="5dp"
+            android:paddingLeft="20dp"/>
+    <TextView android:layout_width="wrap_content"
+              android:layout_marginTop="20dp"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:text="验证码错误,请重新输入"
+              android:textColor="#F39d08"
+              />
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:paddingTop="10dp"
+                  android:gravity="center"
+                  >
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="同意注册协议"
+                android:textColor="#ffff"
+                android:button="@drawable/bg_ckeckbox"
+                android:gravity="center"
+                android:layout_marginLeft="30sp"
+
+                 />
+          <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(点击此处查看)"
+                    android:textColor="#689dc1"
+                    android:layout_marginLeft="10dp"
+          />
+
+    </LinearLayout>
+    <Button
+            android:id="@+id/btn_register"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/et_2"
+            android:layout_marginTop="30dp"
+            android:text="注册"
+            android:textSize="20sp"
+            android:textColor="#FFF"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_btn4"/>
+
+    <TextView
+            android:id="@+id/tv_exitlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginLeft="85dp"
+            android:text="返回登录"
+            android:clickable="true"
+            android:textSize="16sp"
+            android:textColor="#ffff"/>
+
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>

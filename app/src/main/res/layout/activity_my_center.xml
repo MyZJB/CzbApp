@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MyCenterActivity">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="100dp"
+                      android:background="#C61027"
+                      android:gravity="center_vertical">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="-16dp"
+                      android:text="个人中心"
+                      android:textColor="#FFFF"
+                      android:textSize="18sp"
+                      android:gravity="center"
+                      android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/blackground"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+            <ImageView android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:layout_gravity="center"
+                       android:layout_marginLeft="10dp"
+                       android:src="@drawable/user_center_image_portrait"/>
+         <LinearLayout android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical">
+             <TextView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="车主帮用户名称"
+                       android:textColor="#000"
+                       android:layout_marginTop="15dp"
+                       android:layout_marginLeft="10dp"/>
+             <TextView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="二级代理"
+                       android:layout_marginTop="2dp"
+                       android:layout_marginLeft="10dp"/>
+             <TextView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="到期：2019-03-08"
+                       android:layout_marginTop="-20dp"
+                       android:layout_marginLeft="75dp"/>
+         </LinearLayout>
+        </LinearLayout>
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="0.5dp"
+                   android:layout_marginTop="10dp"
+                   android:background="#929292"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginLeft="10dp"
+                  android:text="我的管理"/>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="0.5dp"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:background="#929292"/>
+
+        <GridView
+                android:layout_marginTop="10dp"
+                android:id="@+id/gv_genter"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:horizontalSpacing="10dp"
+                android:numColumns="4"
+                android:verticalSpacing="10dp"></GridView>
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="0.5dp"
+                   android:layout_marginTop="15dp"
+                   android:background="#929292"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
