@@ -1,18 +1,36 @@
-public class English {
+public class English{
 
     /**
-     * DispatcherServlet DisPatcherServlet DisPatcherServlet DisPatcherServlet dispach
-     *  controller hibernate mybatis order by group dispatcherservlet
-     *  handlerMapping
-     *  Adapter  controller service  repository   repository repository repository component
-     *  contains iterator toArray  extends component component component c
-     *  repository repository repository  Autowired autowired autowired  autowired autowired autowired autowired autowired Resource
-     *  required Qualifier  RequestMapping   PathVariable method headers params params params requestMapping requestMapping
-     *  params params params params params params params params params params params params params params method method method requestMapping requestMapping
-     *  headers headers headers headers headers headers headers iterator iterator iterator iterator iterator iterator
-     *RequestParam PathVariable PathVariable PathVariable PathVariable PathVariable PathVariable
-     * abstract algorithm algorithm abstract  otaton annotation anonymous anonymous DispatcherServlet component autowired algorithm algorithm
-     * DispatcherServlet
+     * Component required autowired resource abstract  repository extends implements static final list ArrayList linkedList LinkedArrayList
+     *  implements extends abstract access anonymous annotation PathVariable DispatcherServlet handlerAdapter handlerMapping  requestMapping
+     *  repository ModelAttribute algorithm  handlerAdapter adapter adapter adapter implements extends abstract implements extends translation translation
+     *
+     *  factory factory factory factory factory factory factory factory
+     *
+     *
+     *  implements extends abstract algorithm annotation byte int double String float boolean
+     *  access private public context application out System List ArrayList LinkedList TreeSet TreeMap
+     *  emus DispatcherServlet Repository required autowired RequestMapping HandelMapping HandelAdapter handelAdapter Adapter Adapter
+     *  PathVariable ModelAndView ModelAttribute response response response response response response
+     *
+     *
+     * algorithm anonymous PathVariable modelAttribute RequestMapping DispatcherServlet Apply application resource repository
+     * autowired required annotation extends abstract implements access component requestBody
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
+     *
      *
      */
 }
