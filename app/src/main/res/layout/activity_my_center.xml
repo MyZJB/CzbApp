@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
 <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -30,7 +33,9 @@
                 android:background="@drawable/blackground"
                 android:layout_width="match_parent"
                 android:layout_height="60dp">
-            <ImageView android:layout_width="40dp"
+            <ImageView
+                       android:id="@+id/iv_mydata"
+                       android:layout_width="40dp"
                        android:layout_height="40dp"
                        android:layout_gravity="center"
                        android:layout_marginLeft="10dp"
@@ -88,7 +93,90 @@
                    android:background="#929292"/>
 
 
+        <Button
+                android:layout_marginTop="18dp"
+                android:id="@+id/bt_content"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="消息"
+                android:textSize="15sp"
+                android:textColor="#333333"
+                android:gravity="left"
+                android:drawableRight="@drawable/user_data_11"
+                android:background="@drawable/buttonstyle" />
+
+        <Button
+                android:layout_marginTop="18dp"
+                android:id="@+id/bt_balance"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="余额"
+                android:textSize="15sp"
+                android:textColor="#333333"
+                android:gravity="left"
+                android:drawableRight="@drawable/user_data_11"
+                android:background="@drawable/buttonstyle" />
+        <Button
+                android:layout_marginTop="1px"
+                android:id="@+id/bt_hb"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="红包"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:drawableRight="@drawable/user_data_11"
+                android:background="@drawable/buttonstyle" />
+
+        <Button
+                android:layout_marginTop="1px"
+                android:id="@+id/bt_jf"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="积分"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:drawableRight="@drawable/user_data_11"
+                android:background="@drawable/buttonstyle" />
+
+        <Button
+                android:layout_marginTop="18dp"
+                android:id="@+id/bt_wdyj"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="我的业绩"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:drawableRight="@drawable/user_data_11"
+                android:background="@drawable/buttonstyle" />
+
+        <Button
+                android:layout_marginTop="18dp"
+                android:id="@+id/bt_gyczb"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="关于车主帮"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:drawableRight="@drawable/user_data_11"
+                android:background="@drawable/buttonstyle" />
+        <Button
+                android:layout_marginTop="1dp"
+                android:id="@+id/bt_dqbb"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="当前版本"
+                android:textColor="#333333"
+                android:textSize="15sp"
+                android:gravity="left"
+                android:drawableRight="@drawable/user_data_11"
+                android:background="@drawable/buttonstyle" />
+
     </LinearLayout>
 
 
 </RelativeLayout>
+</ScrollView>

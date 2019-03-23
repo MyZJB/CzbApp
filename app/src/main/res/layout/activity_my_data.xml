@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MyDataActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="48dp"
+                      android:background="#C61027"
+                      android:orientation="horizontal">
+            <ImageView android:layout_width="12dp"
+                       android:layout_height="20dp"
+                       android:layout_gravity="center"
+                       android:layout_marginLeft="12dp"
+                       android:src="@drawable/nav_icon_return"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_gravity="center_vertical"
+                      android:gravity="center"
+                      android:layout_height="wrap_content"
+                      android:text="个人资料"
+                      android:paddingRight="14dp"
+                      android:textStyle="bold"
+                      android:textColor="#fff"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="101dp"
+                      android:orientation="vertical"
+                      android:gravity="center_vertical">
+            <ImageView android:layout_width="60dp"
+                       android:layout_gravity="center"
+                       android:src="@drawable/user_data_07"
+                       android:layout_height="60dp"/>
+            <TextView
+                    android:layout_marginTop="6dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="车主帮用户名"
+                    android:textSize="12sp"
+                    android:textColor="#ff6600"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="12dp"
+                      android:background="#F5F5F5">
+            <TextView
+                    android:paddingTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="用户信息"
+                    android:paddingBottom="9dp"
+                    android:paddingLeft="10dp"
+            />
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+        >
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="2px"
+                       android:background="#929292"
+                       android:layout_marginBottom="5dp"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="账户"
+                          android:paddingLeft="12dp"
+                          android:paddingTop="12dp"
+                          android:paddingBottom="9dp"
+                          android:textSize="15sp"
+                          android:textColor="#333333"
+                />
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="139***6666"
+                          android:gravity="right"
+                          android:paddingRight="12dp"
+                          android:textSize="15sp"
+                          android:textColor="#999999"
+                />
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="1px"
+                       android:layout_marginLeft="12dp"
+                       android:layout_marginTop="5dp"
+                       android:background="#929292"/>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+        >
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="姓名"
+                          android:paddingLeft="12dp"
+                          android:paddingTop="12dp"
+                          android:paddingBottom="9dp"
+                          android:textSize="15sp"
+                          android:textColor="#333333"
+                />
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="车主帮"
+                          android:gravity="right"
+                          android:paddingRight="12dp"
+                          android:textSize="15sp"
+                          android:textColor="#999999"
+                />
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="2px"
+                       android:layout_marginLeft="12dp"
+                       android:layout_marginTop="5dp"
+                       android:background="#929292"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+        >
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="注册时间"
+                          android:paddingLeft="12dp"
+                          android:paddingTop="12dp"
+                          android:paddingBottom="9dp"
+                          android:textSize="15sp"
+                          android:textColor="#333333"
+                />
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="2019-03-20"
+                          android:gravity="right"
+                          android:paddingRight="12dp"
+                          android:textSize="15sp"
+                          android:textColor="#999999"
+                />
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="2px"
+                       android:layout_marginLeft="12dp"
+                       android:layout_marginTop="5dp"
+                       android:background="#929292"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="等级"
+                      android:paddingLeft="12dp"
+                      android:paddingTop="12dp"
+                      android:paddingBottom="9dp"
+                      android:textSize="15sp"
+                      android:textColor="#333333"
+            />
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="二级代理"
+                      android:gravity="right"
+                      android:paddingRight="12dp"
+                      android:textSize="15sp"
+                      android:textColor="#999999"
+            />
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="2px"
+                   android:layout_marginTop="5dp"
+                   android:background="#929292"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:background="#F5F5F5">
+            <TextView
+                    android:paddingTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="代理信息"
+                    android:paddingBottom="9dp"
+                    android:paddingLeft="10dp"
+            />
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+        >
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="2px"
+                       android:background="#929292"
+                       android:layout_marginBottom="5dp"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="经营类目"
+                          android:paddingLeft="12dp"
+                          android:paddingTop="12dp"
+                          android:paddingBottom="9dp"
+                          android:textSize="15sp"
+                          android:textColor="#333333"
+                />
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="汽车美容"
+                          android:gravity="right"
+                          android:paddingRight="12dp"
+                          android:textSize="15sp"
+                          android:textColor="#999999"
+                />
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="1px"
+                       android:layout_marginLeft="12dp"
+                       android:layout_marginTop="5dp"
+                       android:background="#929292"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="代理期限"
+                      android:paddingLeft="12dp"
+                      android:paddingTop="12dp"
+                      android:paddingBottom="9dp"
+                      android:textSize="15sp"
+                      android:textColor="#333333"
+            />
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="2019-03-20至2020-03-20"
+                      android:gravity="right"
+                      android:paddingRight="12dp"
+                      android:textSize="15sp"
+                      android:textColor="#999999"
+            />
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="1px"
+                   android:layout_marginLeft="12dp"
+                   android:layout_marginTop="5dp"
+                   android:background="#929292"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
